@@ -1,11 +1,13 @@
-# READ GOVERNANCE PARAMETERS FROM VECHAIN BLOCKCHAIN
+# READ GOVERNANCE PARAMETERS
 
-## RUN
+From vechain [blockchain](https://github.com/vechain/thor).
 
-```
-git clone
-cd 
+## HOW TO
+
+``` 
+git clone https://github.com/libotony/governance-param.git
+cd governance-param
 npm ci
 npm run build
-
+npm run get {endpoint}(eg. http://localhost:8669)
 ```
