@@ -1,0 +1,19 @@
+{
+  "name": "governance-param",
+  "version": "1.0.0",
+  "description": "read governance parameters from vechain blockchain",
+  "main": "index.js",
+  "scripts": {
+    "get": "sharp-cli exec dist/index.js --endpoint",
+    "build": "rm -fr dist && tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tony.li",
+  "license": "MIT",
+  "dependencies": {
+    "@libotony/sharp-cli": "^1.0.0-beta.3",
+    "ts-node": "^8.6.2",
+    "tslint": "^6.0.0",
+    "typescript": "^3.8.3"
+  }
+}

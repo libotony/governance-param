@@ -1,0 +1,11 @@
+/node_modules/
+/dist/
+/es6/
+/.vscode/
+/coverage/
+/.nyc_output/
+.DS_Store
+*.tgz
+.env
+*.log
+ecosystem.config.js
